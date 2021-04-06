@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+      />
+
+    <ProgressBar
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearBottom"
+        android:background="@color/black_transparent"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnPrevious"
+            android:layout_weight="1"
+            app:tint="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_outline_arrow_back"
+             />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnNext"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:tint="@color/white"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_outline_arrow_forward"
+             />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnRefresh"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:tint="@color/white"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_outline_refresh"
+             />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnClose"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:tint="@color/white"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_round_close"
+             />
+
+    </LinearLayout>
+
+</RelativeLayout>

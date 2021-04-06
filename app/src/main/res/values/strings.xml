@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WebViewApp</string>
+    <string name="app_business">HM Creation</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="refresh">Refresh</string>
+    <string name="close">Close</string>
+</resources>
